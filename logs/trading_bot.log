@@ -1,0 +1,169 @@
+2026-03-28T12:34:09 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:34:09 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None stop_price=None
+2026-03-28T12:34:09 | INFO     | trading_bot.client | Placing BUY MARKET | symbol=BTCUSDT qty=0.001 price=None stopPrice=None
+2026-03-28T12:34:09 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1774681449295, 'recvWindow': 5000}
+2026-03-28T12:34:10 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28T12:34:10 | ERROR    | trading_bot.client | API ERROR code=-4164 msg=Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-28T12:34:10 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only). (HTTP 400)
+2026-03-28T12:35:22 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:35:22 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=MARKET qty=0.002 price=None stop_price=None
+2026-03-28T12:35:22 | INFO     | trading_bot.client | Placing BUY MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=None
+2026-03-28T12:35:22 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1774681522253, 'recvWindow': 5000}
+2026-03-28T12:35:24 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"orderId":13001480283,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"FvZgeFEoeLBppoSCI8fgrD","price":"0.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTim
+2026-03-28T12:35:24 | INFO     | trading_bot.client | Order placed | orderId=13001480283 status=NEW executedQty=0.000 avgPrice=0.00
+2026-03-28T12:50:20 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:50:20 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=MARKET qty=0.002 price=None stop_price=None
+2026-03-28T12:50:20 | INFO     | trading_bot.client | Placing BUY MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=None
+2026-03-28T12:50:20 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1774682420232, 'recvWindow': 5000}
+2026-03-28T12:50:21 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"orderId":13001504708,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"Dh7bRvRqTA5boBMxvRs5zP","price":"0.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTim
+2026-03-28T12:50:21 | INFO     | trading_bot.client | Order placed | orderId=13001504708 status=NEW executedQty=0.000 avgPrice=0.00
+2026-03-28T12:50:31 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:50:31 | INFO     | trading_bot.cli | CLI place | symbol=ETHUSDT side=SELL type=MARKET qty=0.02 price=None stop_price=None
+2026-03-28T12:50:31 | INFO     | trading_bot.client | Placing SELL MARKET | symbol=ETHUSDT qty=0.02 price=None stopPrice=None
+2026-03-28T12:50:31 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '0.02', 'timestamp': 1774682431626, 'recvWindow': 5000}
+2026-03-28T12:50:32 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"orderId":8622579953,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"T1HejLnZ24RMN2yaVH9vnG","price":"0.00","avgPrice":"0.00","origQty":"0.020","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTim
+2026-03-28T12:50:32 | INFO     | trading_bot.client | Order placed | orderId=8622579953 status=NEW executedQty=0.000 avgPrice=0.00
+2026-03-28T12:51:04 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:51:04 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=LIMIT qty=0.001 price=55000 stop_price=None
+2026-03-28T12:51:04 | INFO     | trading_bot.client | Placing BUY LIMIT | symbol=BTCUSDT qty=0.001 price=55000 stopPrice=None
+2026-03-28T12:51:04 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '55000', 'timeInForce': 'GTC', 'timestamp': 1774682464730, 'recvWindow': 5000}
+2026-03-28T12:51:05 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28T12:51:05 | ERROR    | trading_bot.client | API ERROR code=-4164 msg=Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-28T12:51:05 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only). (HTTP 400)
+2026-03-28T12:51:19 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:51:19 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=65000 stop_price=None
+2026-03-28T12:51:19 | INFO     | trading_bot.client | Placing SELL LIMIT | symbol=BTCUSDT qty=0.001 price=65000 stopPrice=None
+2026-03-28T12:51:19 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '65000', 'timeInForce': 'GTC', 'timestamp': 1774682479563, 'recvWindow': 5000}
+2026-03-28T12:51:20 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28T12:51:20 | ERROR    | trading_bot.client | API ERROR code=-4164 msg=Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-28T12:51:20 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only). (HTTP 400)
+2026-03-28T12:51:52 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:51:52 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.001 price=None stop_price=62000
+2026-03-28T12:51:52 | INFO     | trading_bot.client | Placing BUY STOP_MARKET | symbol=BTCUSDT qty=0.001 price=None stopPrice=62000
+2026-03-28T12:51:52 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '62000', 'timestamp': 1774682512214, 'recvWindow': 5000}
+2026-03-28T12:51:52 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T12:51:52 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T12:51:52 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T12:51:58 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:51:58 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.001 price=None stop_price=50000
+2026-03-28T12:51:58 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.001 price=None stopPrice=50000
+2026-03-28T12:51:58 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '50000', 'timestamp': 1774682518766, 'recvWindow': 5000}
+2026-03-28T12:51:59 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T12:51:59 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T12:51:59 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T12:52:06 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:52:06 | DEBUG    | trading_bot.client | REQUEST  method=GET url=https://testnet.binancefuture.com/fapi/v2/account params={'timestamp': 1774682526957, 'recvWindow': 5000}
+2026-03-28T12:52:07 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"15.29149984","totalMaintMargin":"1.26340668","totalWalletBalance":"4999.87771112","totalUnrealizedProfit":"0.11238598","totalMarginBalance":"4999.99009710","totalPositionInitialMargin":"15.29149984","totalOpenOrderInitialMargin":"0.00000000","totalCrossWalletBalance":"4999.87771112","totalCrossUnPnl":"0.11238598","availableBalance":"498
+2026-03-28T12:56:03 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:56:03 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.001 price=None stop_price=50000
+2026-03-28T12:56:03 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.001 price=None stopPrice=50000
+2026-03-28T12:56:03 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '50000', 'timestamp': 1774682763216, 'recvWindow': 5000}
+2026-03-28T12:56:04 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T12:56:04 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T12:56:04 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T12:56:18 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:56:18 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.003 price=None stop_price=50000
+2026-03-28T12:56:18 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.003 price=None stopPrice=50000
+2026-03-28T12:56:18 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.003', 'stopPrice': '50000', 'timestamp': 1774682778506, 'recvWindow': 5000}
+2026-03-28T12:56:19 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T12:56:19 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T12:56:19 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T12:58:17 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:58:17 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.003 price=None stop_price=50000
+2026-03-28T12:58:17 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.003 price=None stopPrice=50000
+2026-03-28T12:58:17 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order/algo params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.003', 'stopPrice': '50000', 'timestamp': 1774682897524, 'recvWindow': 5000}
+2026-03-28T12:58:18 | DEBUG    | trading_bot.client | RESPONSE status=404 body={"code":-5000,"msg":"Path /fapi/v1/order/algo, Method POST is invalid"}
+2026-03-28T12:58:18 | ERROR    | trading_bot.client | API ERROR code=-5000 msg=Path /fapi/v1/order/algo, Method POST is invalid
+2026-03-28T12:58:18 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -5000: Path /fapi/v1/order/algo, Method POST is invalid (HTTP 404)
+2026-03-28T12:58:54 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T12:58:54 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.003 price=None stop_price=50000
+2026-03-28T12:58:54 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.003 price=None stopPrice=50000
+2026-03-28T12:58:54 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order/algo params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.003', 'stopPrice': '50000', 'timestamp': 1774682934222, 'recvWindow': 5000}
+2026-03-28T12:58:58 | DEBUG    | trading_bot.client | RESPONSE status=404 body={"code":-5000,"msg":"Path /fapi/v1/order/algo, Method POST is invalid"}
+2026-03-28T12:58:58 | ERROR    | trading_bot.client | API ERROR code=-5000 msg=Path /fapi/v1/order/algo, Method POST is invalid
+2026-03-28T12:58:58 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -5000: Path /fapi/v1/order/algo, Method POST is invalid (HTTP 404)
+2026-03-28T13:00:08 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:00:08 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.003 price=None stop_price=50000
+2026-03-28T13:00:08 | INFO     | trading_bot.client | STOP_MARKET converted to STOP (testnet workaround) | stopPrice=50000 limitPrice=49750.00
+2026-03-28T13:00:08 | INFO     | trading_bot.client | Placing SELL STOP | symbol=BTCUSDT qty=0.003 price=49750.00 stopPrice=50000
+2026-03-28T13:00:08 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': '0.003', 'stopPrice': '50000', 'price': '49750.00', 'timeInForce': 'GTC', 'timestamp': 1774683008560, 'recvWindow': 5000}
+2026-03-28T13:00:09 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:00:09 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:00:09 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:00:58 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:00:58 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.002 price=None stop_price=62000
+2026-03-28T13:00:58 | INFO     | trading_bot.client | STOP_MARKET converted to STOP (testnet workaround) | stopPrice=62000 limitPrice=62310.00
+2026-03-28T13:00:58 | INFO     | trading_bot.client | Placing BUY STOP | symbol=BTCUSDT qty=0.002 price=62310.00 stopPrice=62000
+2026-03-28T13:00:58 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': '0.002', 'stopPrice': '62000', 'price': '62310.00', 'timeInForce': 'GTC', 'timestamp': 1774683058329, 'recvWindow': 5000}
+2026-03-28T13:01:04 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-1021,"msg":"Timestamp for this request is outside of the recvWindow."}
+2026-03-28T13:01:04 | ERROR    | trading_bot.client | API ERROR code=-1021 msg=Timestamp for this request is outside of the recvWindow.
+2026-03-28T13:01:04 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -1021: Timestamp for this request is outside of the recvWindow. (HTTP 400)
+2026-03-28T13:02:04 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:02:04 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.002 price=None stop_price=62000
+2026-03-28T13:02:04 | INFO     | trading_bot.client | STOP_MARKET converted to STOP (testnet workaround) | stopPrice=62000 limitPrice=62310.00
+2026-03-28T13:02:04 | INFO     | trading_bot.client | Placing BUY STOP | symbol=BTCUSDT qty=0.002 price=62310.00 stopPrice=62000
+2026-03-28T13:02:04 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': '0.002', 'stopPrice': '62000', 'price': '62310.00', 'timeInForce': 'GTC', 'timestamp': 1774683124292, 'recvWindow': 60000}
+2026-03-28T13:02:05 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:02:05 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:02:05 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:02:12 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:02:12 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.002 price=None stop_price=62000
+2026-03-28T13:02:12 | INFO     | trading_bot.client | STOP_MARKET converted to STOP (testnet workaround) | stopPrice=62000 limitPrice=62310.00
+2026-03-28T13:02:12 | INFO     | trading_bot.client | Placing BUY STOP | symbol=BTCUSDT qty=0.002 price=62310.00 stopPrice=62000
+2026-03-28T13:02:12 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': '0.002', 'stopPrice': '62000', 'price': '62310.00', 'timeInForce': 'GTC', 'timestamp': 1774683132709, 'recvWindow': 60000}
+2026-03-28T13:02:13 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:02:13 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:02:13 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:03:24 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:03:24 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.002 price=None stop_price=62000
+2026-03-28T13:03:24 | INFO     | trading_bot.client | Placing BUY STOP_MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=62000
+2026-03-28T13:03:24 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '62000', 'timestamp': 1774683204150, 'recvWindow': 60000}
+2026-03-28T13:03:24 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:03:24 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:03:24 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:03:52 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:03:52 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.002 price=None stop_price=62000
+2026-03-28T13:03:52 | INFO     | trading_bot.client | Placing BUY STOP_MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=62000
+2026-03-28T13:03:52 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '62000', 'timestamp': 1774683232987, 'recvWindow': 60000}
+2026-03-28T13:03:53 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:03:53 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:03:53 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:05:46 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:05:46 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=LIMIT qty=0.002 price=65000 stop_price=None
+2026-03-28T13:05:46 | INFO     | trading_bot.client | Placing SELL LIMIT | symbol=BTCUSDT qty=0.002 price=65000 stopPrice=None
+2026-03-28T13:05:46 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.002', 'price': '65000', 'timeInForce': 'GTC', 'timestamp': 1774683346518, 'recvWindow': 60000}
+2026-03-28T13:05:47 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"orderId":13001528113,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"C9SYwrwMgDgeW9GF2OHulN","price":"65000.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"update
+2026-03-28T13:05:47 | INFO     | trading_bot.client | Order placed | orderId=13001528113 status=NEW executedQty=0.000 avgPrice=0.00
+2026-03-28T13:05:57 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:05:57 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=BUY type=STOP_MARKET qty=0.002 price=None stop_price=62000
+2026-03-28T13:05:57 | INFO     | trading_bot.client | Placing BUY STOP_MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=62000
+2026-03-28T13:05:57 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '62000', 'timestamp': 1774683357177, 'recvWindow': 60000}
+2026-03-28T13:05:57 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:05:57 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:05:57 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:06:06 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:06:06 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.002 price=None stop_price=50000
+2026-03-28T13:06:06 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=50000
+2026-03-28T13:06:06 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '50000', 'timestamp': 1774683366046, 'recvWindow': 60000}
+2026-03-28T13:06:06 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T13:06:06 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T13:06:06 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T13:06:14 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T13:06:14 | DEBUG    | trading_bot.client | REQUEST  method=GET url=https://testnet.binancefuture.com/fapi/v2/account params={'timestamp': 1774683374395, 'recvWindow': 60000}
+2026-03-28T13:06:15 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"8.64419099","totalMaintMargin":"0.73160364","totalWalletBalance":"4999.84797511","totalUnrealizedProfit":"0.01949559","totalMarginBalance":"4999.86747070","totalPositionInitialMargin":"8.64419099","totalOpenOrderInitialMargin":"0.00000000","totalCrossWalletBalance":"4999.84797511","totalCrossUnPnl":"0.01949559","availableBalance":"4991.
+2026-03-28T16:59:32 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T16:59:32 | DEBUG    | trading_bot.client | REQUEST  method=GET url=https://testnet.binancefuture.com/fapi/v2/account params={'timestamp': 1774697372066, 'recvWindow': 60000}
+2026-03-28T16:59:33 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"8.62465000","totalMaintMargin":"0.72989960","totalWalletBalance":"4999.84673635","totalUnrealizedProfit":"-0.08980000","totalMarginBalance":"4999.75693635","totalPositionInitialMargin":"8.62465000","totalOpenOrderInitialMargin":"0.00000000","totalCrossWalletBalance":"4999.84673635","totalCrossUnPnl":"-0.08980000","availableBalance":"499
+2026-03-28T17:02:57 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T17:02:57 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=STOP_MARKET qty=0.002 price=None stop_price=50000
+2026-03-28T17:02:57 | INFO     | trading_bot.client | Placing SELL STOP_MARKET | symbol=BTCUSDT qty=0.002 price=None stopPrice=50000
+2026-03-28T17:02:57 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.002', 'stopPrice': '50000', 'timestamp': 1774697577773, 'recvWindow': 60000}
+2026-03-28T17:02:58 | DEBUG    | trading_bot.client | RESPONSE status=400 body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-03-28T17:02:58 | ERROR    | trading_bot.client | API ERROR code=-4120 msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-03-28T17:02:58 | ERROR    | trading_bot.orders | BinanceAPIError while placing order: Binance API error -4120: Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. (HTTP 400)
+2026-03-28T17:03:03 | INFO     | trading_bot.client | BinanceFuturesClient ready (base_url=https://testnet.binancefuture.com)
+2026-03-28T17:03:03 | INFO     | trading_bot.cli | CLI place | symbol=BTCUSDT side=SELL type=LIMIT qty=0.002 price=65000 stop_price=None
+2026-03-28T17:03:03 | INFO     | trading_bot.client | Placing SELL LIMIT | symbol=BTCUSDT qty=0.002 price=65000 stopPrice=None
+2026-03-28T17:03:03 | DEBUG    | trading_bot.client | REQUEST  method=POST url=https://testnet.binancefuture.com/fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.002', 'price': '65000', 'timeInForce': 'GTC', 'timestamp': 1774697583873, 'recvWindow': 60000}
+2026-03-28T17:03:04 | DEBUG    | trading_bot.client | RESPONSE status=200 body={"orderId":13001967923,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"PhXvSlAWPzxgxQs7ooTSaK","price":"65000.00","avgPrice":"0.00","origQty":"0.002","executedQty":"0.000","cumQty":"0.000","cumQuote":"0.00000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"update
+2026-03-28T17:03:04 | INFO     | trading_bot.client | Order placed | orderId=13001967923 status=NEW executedQty=0.000 avgPrice=0.00
